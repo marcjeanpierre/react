@@ -2,9 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { HeaderBar } from './Components/HeaderBar';
+
+// Conversion du Hook en classù
 function App() {
   return (
     <div className="App">
+      <HeaderBar.Display name='Zoubida' />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
